@@ -1,0 +1,1 @@
+<aside class="utdatert">Denne informasjonen er eldre enn 6 måneder, og kan vere utdatert.</aside>

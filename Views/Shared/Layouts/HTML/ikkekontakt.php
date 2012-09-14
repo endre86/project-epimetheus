@@ -1,0 +1,1 @@
+<aside class="ikkekontakt">Denne personen vil helst ikkje bli kontakta.</aside>

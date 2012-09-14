@@ -1,0 +1,428 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Vår CSS */
+
+body {
+background: #e2e2e2;
+margin: 0;
+padding: 0;
+font-family: georgia;
+}
+
+h1, h2, h3, h4, h5 {
+text-transdiv: uppercase;
+font-family: arial;
+font-weight: bolder;
+font-size: auto;
+margin: 10px 5px 10px 0px;
+}
+
+p {
+margin-bottom: 4px;
+padding: 2px;
+}
+
+.h, .r {
+float: right;
+}
+
+.v, .l {
+float: left;
+}
+
+.athird {
+width: 20%;
+}
+
+#expertise {
+overflow: hidden;
+}
+
+header {
+background: #2d3032;
+color: #ffffff;
+padding: 1px 10px 10px 10px;
+border-bottom: 3px solid #dd5f18;
+height: 130px;
+}
+
+header h1 span {
+color: #dd5f18;
+}
+
+header a {
+color: #bbbbbb;
+}
+
+header nav ul {
+}
+
+header nav ul li {
+display: inline;
+}
+
+header nav ul li a {
+color: #ffffff;
+}
+
+header figure {
+border: none;
+float: left;
+}
+
+header hgroup {
+margin-bottom: 10px;
+}
+
+figure img {
+border: none;
+}
+
+header section#meta {
+float: right;
+position: relative;
+bottom: 95px;
+}
+
+section#meta p {
+margin: 0 0 3px 0;
+padding: 0;
+}
+
+section#meta p b {
+color: #ffffff;
+}
+
+section#wrapper {
+margin: 0 auto;
+width: 800px;
+padding: 35px 5px 10px 5px;
+}
+
+section#wrapper section {
+background: #f7f7f7;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+section#wrapper section input {
+height: 25px;
+font-size: 22px;
+}
+
+select {
+height: 30px;
+font-size: 22px;
+}
+
+fieldset label select {
+height: 22px;
+font-size: 12px;
+}
+
+section#wrapper section input#sok {
+width: 85%;
+color: #2d3032;
+}
+
+section#sokeboks div fieldset nav {
+margin-bottom: 9px;
+}
+
+section#sokeboks div fieldset nav label {
+display: inline;
+}
+
+section#sokeboks div fieldset nav label input, section#sokeboks div fieldset nav label select {
+float: none;
+width: auto;
+}
+
+section#login input {
+width: 250px;
+}
+
+section#login label {
+width: 450px;
+}
+
+section#personalia p, section#viewuser p, section#memberlist p, section#article p {
+background: #e2e2e2;
+}
+
+section#wrapper a[href^='http://srib.no'] { 
+padding-right: 20px;
+background: transparent url('/epithemeus/gfx/srib.png') no-repeat center right;
+}
+
+section#wrapper a[href^='http://bstv.no'] { 
+padding-right: 20px;
+background: transparent url('/epithemeus/gfx/bstv.png') no-repeat center right;
+}
+
+section#wrapper a[href^='http://studvest.no'] { 
+padding-right: 20px;
+background: transparent url('/epithemeus/gfx/studvest.png') no-repeat center right;
+}
+
+section#wrapper a {
+color: #dd5f18;
+}
+
+section#wrapper a:visited {
+color: #923c0b;
+}
+
+section#admin aside {
+float: left;
+margin-right: 10px;
+background: #e2e2e2;
+}
+
+section#admin aside ul {
+margin: 0;
+padding: 0;
+}
+
+section#admin aside ul li {
+list-style-type: none;
+margin: 0;
+}
+
+footer#footer {
+height: 350px;
+padding: 15px;
+background: #bbbbbb;
+}
+
+footer#footer section.footerboks {
+width: 30%;
+float: left;
+padding: 10px;
+margin-left: 10px;
+background: #bbbbbb;
+}
+
+footer#footer section.footerboksdobbel {
+width: 50%;
+float: left;
+padding: 10px;
+margin-left: 10px;
+background: #bbbbbb;
+}
+
+aside {
+margin-bottom: 5px;
+padding: 5px;
+}
+
+aside.utdatert {
+border: 1px solid #ff0000;
+background: #E8ACBB;
+}
+
+aside.ikkekontakt {
+border: 1px solid #ff0000;
+background: #E8ACBB;
+}
+
+section#login {
+margin: 0 auto;
+width: 500px;
+}
+
+section table {
+width: 100%;
+}
+
+section table tr td {
+padding: 2px;
+}
+
+section table thead th {
+padding: 2px;
+font-weight: bolder;
+background: #333333;
+color: #ffffff;
+}
+
+section table tr td:first-child {
+width: 350px;
+}
+
+section table tr.id0 {
+background: #e3e3e3;
+}
+
+section table tr.id1 {
+background: #d3d3d3;
+}
+
+div fieldset, form fieldset {
+border: none;
+margin; 0 auto;
+}
+
+div fieldset label, form fieldset label {
+display: block;
+min-height: 45px;
+margin: 10px 0 10px 0;
+width: 550px;
+clear: both;
+}
+
+div fieldset label span, form fieldset label span {
+margin-top: 5px;
+float: left;
+}
+
+div fieldset label input, div fieldset label select, div fieldset label textarea, form fieldset label input, form fieldset label select, form fieldset label textarea {
+float: right;
+width: 350px;
+max-width: 350px;
+}
+
+.enfemti {
+width: 150px;
+}
+
+div fieldset label textarea {
+height: 135px;
+}
+
+label small {
+float: right;
+clear: both;
+color: #bbbbbb;
+}
+
+br.break {
+clear: both;
+}
+
+td button, p.org button {
+height: 28px;
+font-size: 17px;
+}
+
+button, input[type='submit'], input#sumbit {
+height: 40px;
+font-size: 22px;
+float: right;
+}
+
+button span:after {
+content: url("/gfx/icon_accept.gif"); 
+padding-left: 5px;
+}
+
+.pluss:after {
+content: url("/gfx/add.png"); 
+padding-left: 5px;
+}
+
+.slett:after, section#wrapper a[href*="delete"]:after {
+content: url("/gfx/delete.png"); 
+padding-left: 5px;
+}
+
+section#wrapper a[href*="edit"]:after {
+content: url("/gfx/page_edit.gif"); 
+padding-left: 5px;
+}
+
+p.org span label button span:after {
+content: url("/gfx/arrow_refresh.png");
+padding-left: 5px;
+}
+
+/* Autocomplete */
+.warning {
+	background: red;
+}
+
+.approved {
+	background: green;
+}
+
+.autocomplete-w1 { 
+background:url(../gfx/shadow.png) 
+no-repeat bottom right; 
+position:absolute; 
+top:0px; 
+left:0px; 
+margin:8px 0 0 6px; 
+/* IE6 fix: */ _background:none; 
+_margin:0; 
+}
+
+.autocomplete { 
+border:1px solid #999; 
+background:#FFF; 
+cursor:default; 
+text-align:left; 
+max-height:350px; 
+overflow:auto; 
+margin:-6px 6px 6px -6px; 
+/* IE6 specific: */ _height:350px; _margin:0; _overflow-x:hidden; 
+}
+
+.autocomplete .selected { 
+background:#F0F0F0; 
+}
+
+.autocomplete div { 
+padding:2px 5px; 
+white-space:nowrap; 
+}
+
+.autocomplete strong { 
+font-weight:normal; 
+color: #80cb4f; 
+text-decoration: underline;
+}
