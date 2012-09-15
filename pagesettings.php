@@ -7,5 +7,5 @@
 /*
  * Common page settings
  */
-$PAGE['root_dir'] = '/project-epimetheus/trunk/';
+$PAGE['root_dir'] = 'project-epimetheus/';
 ?>

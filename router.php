@@ -6,7 +6,7 @@
  */
 if(!isset($_GET['url'])) 
 {	// If no information about what to show is given:
-	require_once '/Controllers/HomeController.php'; // Get home controller
+	require_once 'Controllers/HomeController.php'; // Get home controller
 	$controller = new HomeController(); // Create new home controller
 	$controller->Index(); // Call index method
 }
