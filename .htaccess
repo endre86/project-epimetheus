@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    #RewriteCond %{REQUEST_URI} !^/(.*)$
+    #RewriteRule ^(.*)$ /project-epimetheus/trunk/$1 [QSA,L]
+
+    # Exceptions from sending to index.php
+    RewriteCond %{REQUEST_URI} !^/setup/
+    RewriteCond %{REQUEST_URI} !^/content/
+    RewriteCond %{REQUEST_URI} !^/gfx/
+    RewriteCond %{REQUEST_URI} !^/scripts/
+    RewriteCond %{REQUEST_URI} !^/libs/
+    RewriteCond %{REQUEST_URI} !^/styles/
+    RewriteCond %{REQUEST_URI} !^/Models/DBHandler.php
+
+    RedirectMatch 303 ^(.*)/styles/(.*)$ /project-epimetheus/trunk/_styles/$2
+    RedirectMatch 303 ^(.*)/gfx/(.*)$ /project-epimetheus/trunk/_gfx/$2
+    RedirectMatch 303 ^(.*)/content/(.*)$ /project-epimetheus/trunk/_content/$2
+    RedirectMatch 303 ^(.*)/scripts/(.*)$ /project-epimetheus/trunk/_scripts/$2
+    RedirectMatch 303 ^(.*)/libs/(.*)$ /project-epimetheus/trunk/_libs/$2
+
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
