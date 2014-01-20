@@ -1,9 +1,13 @@
-project-epimetheus
+project-epimetheus v 2.alfa
 ==================
+
+
+Webapplication created for the student radio in Bergen, SRiB
+
 
 Project is discontinued..
 =========================
 
-Webapplication created for the student radio in Bergen, SRiB
+Original concept was created as a bachelor (B.Cs) project.
 
-version 2.beta
+http://www.uib.no/infomedia/41193/laget-system-effektiv-mediaresearch
